@@ -60,12 +60,17 @@ function CreateOrder() {
                 <div>
                     <label>Address</label>
                     <div>
-                        <input type="text" name="address" required/>
+                        <input
+                            className='rounded-full border border-stone-200 px-4 py-2 text-sm transition duration-300
+                            placeholder:text-stone-400 focus:outline-none focus:ring focus:ring-yellow-400 w-full
+                            md:px-6 md:py-3'
+                            type="text" name="address" required/>
                     </div>
                 </div>
 
                 <div>
                     <input
+                        className='h-6 w-6 accent-amber-500 focus:outline-none focus:ring focus:ring-yellow-400 focus:ring-offset-2'
                         type="checkbox"
                         name="priority"
                         id="priority"
